@@ -31,5 +31,10 @@ public class RomanNumeralsTest {
 	public void romanNumerals5returnsV() {
 		assertEquals("V", RomanNumerals.roman(5));
 	}
+	
+	@Test
+	public void romanNumerals6returnsVI() {
+		assertEquals("VI", RomanNumerals.roman(6));
+	}
 
 }
