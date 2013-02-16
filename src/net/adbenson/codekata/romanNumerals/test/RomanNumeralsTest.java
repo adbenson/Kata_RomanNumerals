@@ -92,5 +92,14 @@ public class RomanNumeralsTest {
 		assertEquals("XL", RomanNumerals.roman(40));
 	}
 
+	@Test //18
+	public void romanNumerals49returnsXLIX() {
+		assertEquals("XLIX", RomanNumerals.roman(49));
+	}
+	
+	@Test //19
+	public void romanNumerals50returnsL() {
+		assertEquals("L", RomanNumerals.roman(50));
+	}
 
 }
