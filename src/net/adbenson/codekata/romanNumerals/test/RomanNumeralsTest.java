@@ -61,5 +61,31 @@ public class RomanNumeralsTest {
 	public void romanNumerals13returnsXIII() {
 		assertEquals("XIII", RomanNumerals.roman(13));
 	}
+	
+	@Test //12
+	public void romanNumerals14returnsXIII() {
+		assertEquals("XIII", RomanNumerals.roman(13));
+	}
+	
+	@Test //13
+	public void romanNumerals18returnsXVIII() {
+		assertEquals("XVIII", RomanNumerals.roman(18));
+	}
+	
+	@Test //14
+	public void romanNumerals19returnsXIX() {
+		assertEquals("XIX", RomanNumerals.roman(19));
+	}
+	
+	@Test //15
+	public void romanNumerals24returnsXXIV() {
+		assertEquals("XXIV", RomanNumerals.roman(24));
+	}
+	
+	@Test //16
+	public void romanNumerals39returnsXXXIX() {
+		assertEquals("XXXIX", RomanNumerals.roman(39));
+	}
+
 
 }
