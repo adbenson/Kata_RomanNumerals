@@ -41,5 +41,10 @@ public class RomanNumeralsTest {
 	public void romanNumerals8returnsVIII() {
 		assertEquals("VIII", RomanNumerals.roman(8));
 	}
+	
+	@Test //8
+	public void romanNumerals9returnsIX() {
+		assertEquals("IX", RomanNumerals.roman(9));
+	}
 
 }
