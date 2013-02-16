@@ -101,5 +101,71 @@ public class RomanNumeralsTest {
 	public void romanNumerals50returnsL() {
 		assertEquals("L", RomanNumerals.roman(50));
 	}
+		
+	@Test //20
+	public void romanNumerals90returnsXC() {
+		assertEquals("XC", RomanNumerals.roman(90));
+	}
+	
+	@Test //21
+	public void romanNumerals100returnsC() {
+		assertEquals("C", RomanNumerals.roman(100));
+	}
+		
+	@Test //22
+	public void romanNumerals400returnsCD() {
+		assertEquals("CD", RomanNumerals.roman(400));
+	}
+		
+	@Test //23
+	public void romanNumerals500returnsD() {
+		assertEquals("D", RomanNumerals.roman(500));
+	}
+		
+	@Test //24
+	public void romanNumerals900returnsCM() {
+		assertEquals("CM", RomanNumerals.roman(900));
+	}
+	
+	@Test //25
+	public void romanNumerals1000returnsM() {
+		assertEquals("M", RomanNumerals.roman(1000));
+	}
+	
+	@Test //26
+	public void romanNumerals501returnsDI() {
+		assertEquals("DI", RomanNumerals.roman(501));
+	}
+	
+	@Test //27
+	public void romanNumerals550returnsDL() {
+		assertEquals("DL", RomanNumerals.roman(550));
+	}
+	
+	@Test //28
+	public void romanNumerals530returnsDXXX() {
+		assertEquals("DXXX", RomanNumerals.roman(530));
+	}
+		
+	@Test //29
+	public void romanNumerals707returnsDCCVII() {
+		assertEquals("DCCVII", RomanNumerals.roman(707));
+	}
+	
+	@Test //30
+	public void romanNumerals890returnsDCCCXC() {
+		assertEquals("DCCCXC", RomanNumerals.roman(890));
+	}
+	
+	@Test //31
+	public void romanNumerals1500returnsMD() {
+		assertEquals("MD", RomanNumerals.roman(1500));
+	}
+	
+	@Test //32
+	public void romanNumerals1800returnsMDCCC() {
+		assertEquals("MDCCC", RomanNumerals.roman(1800));
+	}
+	
 
 }
