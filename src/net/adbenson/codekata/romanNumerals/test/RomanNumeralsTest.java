@@ -27,4 +27,9 @@ public class RomanNumeralsTest {
 		assertEquals("IV", RomanNumerals.roman(4));
 	}
 
+	@Test
+	public void romanNumerals5returnsV() {
+		assertEquals("V", RomanNumerals.roman(5));
+	}
+
 }
