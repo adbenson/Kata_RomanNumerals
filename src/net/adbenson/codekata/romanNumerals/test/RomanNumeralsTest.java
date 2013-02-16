@@ -1,5 +1,6 @@
 package net.adbenson.codekata.romanNumerals.test;
 
+import static org.junit.Assert.*;
 import net.adbenson.codekata.romanNumerals.RomanNumerals;
 
 import org.junit.Test;
