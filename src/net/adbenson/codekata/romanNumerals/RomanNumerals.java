@@ -9,6 +9,7 @@ public class RomanNumerals {
 	
 	static {
 		numerals = new LinkedHashMap<Integer, String>();
+		numerals.put(50, "L");
 		numerals.put(40, "XL");
 		numerals.put(10, "X");
 		numerals.put(9, "IX");
